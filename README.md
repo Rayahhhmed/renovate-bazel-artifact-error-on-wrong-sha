@@ -2,7 +2,7 @@
 
 ## Current behavior
 
-Currently, when Renovate tries to update bazel http_archive rule and fails to find artifact sha, it will silently raise the PR in a broken state. This Reproduction shows how the `strip_prefix`, `sha` is not updated at all and most importantly the `url` is in an invalid state. 
+Currently, when Renovate tries to update bazel `http_archive` rule and fails to find artifact sha, it will silently raise the PR in a broken state. This Reproduction shows how the `strip_prefix`, `sha` is not updated at all and most importantly the `url` is in an invalid state. 
 
 ## Expected behavior
 
