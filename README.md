@@ -12,5 +12,5 @@ A bit more detail: Often times network firewall rules may block certain urls fro
 
 ## Link to the Renovate issue or Discussion
 
-This reproduction shows the bug for (this disccusion)[https://github.com/renovatebot/renovate/discussions/37143].
-A PR is raised to address this (here)[https://github.com/renovatebot/renovate/pull/37249].
+This reproduction shows the bug for [this disccusion](https://github.com/renovatebot/renovate/discussions/37143).
+A PR is raised to address this [here](https://github.com/renovatebot/renovate/pull/37249).
