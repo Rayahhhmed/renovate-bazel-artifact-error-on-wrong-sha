@@ -1,0 +1,8 @@
+# load("@rules_cc//cc:defs.bzl", "cc_library", "cc_binary")
+
+# Test library that depends on ONNX Runtime
+cc_library(
+    name = "onnxruntime_lib",
+    deps = ["@onnxruntime_osx_arm64//:so"],
+    visibility = ["//visibility:public"],
+)
